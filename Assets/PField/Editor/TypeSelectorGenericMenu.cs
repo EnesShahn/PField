@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System;
 
 using UnityEditor;
@@ -45,3 +46,4 @@ namespace EnesShahn.PField.Editor
         }
     }
 }
+#endif

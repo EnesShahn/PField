@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace EnesShahn.PField.Tests
 {
-    [CreateAssetMenu(menuName = "PField Inspector Test", fileName = "PField Inspector Test")]
+    //[CreateAssetMenu(menuName = "PField Inspector Test", fileName = "PField Inspector Test")]
     public class PFieldInspectorTest : ScriptableObject
     {
         public List<BaseClass> list1;

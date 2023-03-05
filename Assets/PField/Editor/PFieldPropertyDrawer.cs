@@ -1,8 +1,8 @@
+#if UNITY_EDITOR
 using UnityEngine;
 using UnityEditor;
 using EnesShahn.Extensions;
 using System;
-using UnityEditorInternal;
 
 namespace EnesShahn.PField.Editor
 {
@@ -138,4 +138,4 @@ namespace EnesShahn.PField.Editor
 
     }
 }
-
+#endif
