@@ -13,20 +13,23 @@ To overcome these limitation I've taken a different approach while writing this 
 
 Minimum supported Unity version is 2019.3 but I recommended Unity 2021 LTS due to [this](https://blog.unity.com/engine-platform/serializereference-improvements-in-unity-2021-lts)
 
-### Features
+## Features
  - PList nesting support
  - Proper item duplication support on PList (values are duplicated)
  - Better performance compared to other third-party tools
  - Copy-Paste support on single value fields (Collection item copy-paste not supported yet)
 
+### Fields:
 ![PField](https://user-images.githubusercontent.com/22725319/222987732-070d7236-71f6-4882-a9b5-847081cde2ee.gif)
+### Lists:
 ![PList](https://user-images.githubusercontent.com/22725319/222987740-3651b8f5-e877-43a2-bad9-c46f5bbc16be.gif)
+### Nested Lists:
 ![PListNested](https://user-images.githubusercontent.com/22725319/222987742-93e12a0b-f209-4a7f-be20-e1cdda0e19ba.gif)
 
-### Installation
+## Installation
 Download .unitypackage from Releases section.
 
-### Usage
+## Usage
  - Include `EnesShahn.PField` namespace
  - For collection field:
  ```
@@ -45,7 +48,7 @@ Download .unitypackage from Releases section.
  }
  ```
  
- ### Notes
+ ## Notes
 - Classes should be Serializable
 - Classes must not derive from UnityEngine.Object
 - Abstract classes are not included in the context menu
@@ -53,7 +56,7 @@ Download .unitypackage from Releases section.
 Please refer to [this thread](https://forum.unity.com/threads/serializereference-data-loss-when-class-name-is-changed.736874/)
 
 
-### TODOs
+## TODOs
 - [ ] Add to UPM registery
 - [ ] Copy-Paste context menu for list items
 
