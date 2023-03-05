@@ -1,6 +1,6 @@
 # PField - Unity Polymorphic Field Editor
 
-In Unity 2019.3 the `SerializeReference` attribute was added, it enabled developers to make fields serialized by reference.
+In Unity 2019.3 the [SerializeReference](https://docs.unity3d.com/ScriptReference/SerializeReference.html) attribute was added, it enabled developers to make fields serialized by reference.
 
 However, Unity's default property drawer doesn't give us the means to specify which type to serialize the field to.
 
