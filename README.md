@@ -61,5 +61,5 @@ Please refer to [this thread](https://forum.unity.com/threads/serializereference
 - [ ] Copy-Paste context menu for list items
 
 Making a wrapper class around List<> instead of using an attribute has some neglible performance cost, but it was necessary since:
- 1. When adding an attribute to a List<>, Unity applies the attribute on each list item individually.
+ 1. When adding an attribute to an enumerable (e.g. Lists, Arrays), Unity applies the attribute on each list item individually.
  2. We are not able to override the default PropertyDrawer for List<> in a clean way. 
