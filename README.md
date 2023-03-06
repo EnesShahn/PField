@@ -11,7 +11,7 @@ There are many third-party tools that already had this functionallity. However, 
 
 To overcome these limitation I've taken a different approach while writing this tool.
 
-Minimum supported Unity version is 2019.3 but I recommended Unity 2021 LTS due to [this](https://blog.unity.com/engine-platform/serializereference-improvements-in-unity-2021-lts)
+Minimum supported Unity version is 2019.3 (Not tested) but I recommended Unity 2021 (Tested) LTS due to [this](https://blog.unity.com/engine-platform/serializereference-improvements-in-unity-2021-lts)
 
 ## Features
  - PList nesting support
